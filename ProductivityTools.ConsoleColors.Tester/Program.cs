@@ -10,7 +10,8 @@ namespace ProductivityTools.ConsoleColors.Tester
             var text = new ColorString();
             for (byte i = 0; i < 255; i++)
             {
-                text.Add(new ColorStringItem(i.ToString(), i));
+                text.Add(new ColorStringItem(i.ToString().PadLeft( 10,' '),15));
+                text.Add(new ColorStringItem(" XXXX", i));
             }
 
             ConsoleColor.WriteInColor(text);
