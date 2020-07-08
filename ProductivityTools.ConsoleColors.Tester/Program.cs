@@ -1,0 +1,20 @@
+﻿using System;
+using System.Drawing;
+
+namespace ProductivityTools.ConsoleColors.Tester
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var text = new ColorString();
+            for (byte i = 0; i < 255; i++)
+            {
+                text.Add(new ColorStringItem(i.ToString(), i));
+            }
+
+            ConsoleColor.WriteInColor(text);
+            Console.Read();
+        }
+    }
+}
