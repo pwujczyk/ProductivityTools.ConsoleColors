@@ -1,4 +1,4 @@
-<!--Category:C#--> 
+<!--Category:C#,PowerShell--> 
  <p align="right">
         <a href="https://www.nuget.org/packages/ProductivityTools.ConsoleColors/"><img   src="Images/Header/Nuget_border_40px.png" /></a>
         <a href="https://www.powershellgallery.com/packages/ProductivityTools.PSSaveLoginAndPasswordForFortiClient/"><img src="Images/Header/ProductivityTools_green_40px_2.png" /><a> 
@@ -14,6 +14,7 @@
 # ProductivityTools.ConsoleColors
 
 Library allows to write to console strings in different colors.
+<!--more-->
 
 To use it you need to create ```ConsoleColor``` object which will contain string and color in which you would like to print it. 
 When you will add all text you need to invoke ```ConsoleColor.WriteInColor``` static method.
