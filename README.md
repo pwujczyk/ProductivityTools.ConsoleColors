@@ -11,9 +11,9 @@
 </p>
 
 
-# ProductivityTools.ConsoleColors
+# ConsoleColors
 
-Library allows to write to console strings in different colors.
+The library allows writing to console strings in different colors.
 <!--more-->
 
 To use it you need to create ```ConsoleColor``` object which will contain string and color in which you would like to print it. 
