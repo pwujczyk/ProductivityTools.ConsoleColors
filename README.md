@@ -31,5 +31,5 @@ for (byte i = 0; i < 255; i++)
 
 ConsoleColor.WriteInColor(text);
 ```
-
+<!--og-image-->
 ![Console Colors Tester](Images/TesterConsoleColors.png)
