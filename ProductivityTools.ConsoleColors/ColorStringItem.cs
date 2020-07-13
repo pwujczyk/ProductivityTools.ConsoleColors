@@ -11,6 +11,12 @@ namespace ProductivityTools.ConsoleColors
         public string Value { get; set; }
         public byte? Color { get; set; }
 
+        public ColorStringItem()
+        {
+            this.Value = string.Empty;
+            this.Color = 1;
+        }
+
         public ColorStringItem(string value, byte? color)
         {
             this.Value = value;
