@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProductivityTools.ConsoleColors
+namespace ProductivityTools.ConsoleColor
 {
     public static class ConsoleColors
     {

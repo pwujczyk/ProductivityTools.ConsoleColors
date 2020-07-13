@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 
-namespace ProductivityTools.ConsoleColors.Tester
+namespace ProductivityTools.ConsoleColor.Tester
 {
     class Program
     {
