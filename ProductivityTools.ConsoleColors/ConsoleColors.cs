@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProductivityTools.ConsoleColors
 {
-    public static class ConsoleColor
+    public static class ConsoleColors
     {
         //https://jonasjacek.github.io/colors/
 

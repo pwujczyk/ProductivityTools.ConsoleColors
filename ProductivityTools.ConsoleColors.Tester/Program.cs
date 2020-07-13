@@ -14,7 +14,7 @@ namespace ProductivityTools.ConsoleColors.Tester
                 text.Add(new ColorStringItem(" XXXX", i));
             }
 
-            ConsoleColor.WriteInColor(text);
+            ConsoleColors.WriteInColor(text);
             Console.Read();
         }
     }
