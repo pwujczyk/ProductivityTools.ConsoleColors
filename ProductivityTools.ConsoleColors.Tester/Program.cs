@@ -15,7 +15,9 @@ namespace ProductivityTools.ConsoleColor.Tester
             }
 
             ConsoleColors.WriteInColor(text);
-            Console.Read();
+
+            ConsoleColors.WriteInColor("LastLine", 164);
+            Console.Read();         
         }
     }
 }

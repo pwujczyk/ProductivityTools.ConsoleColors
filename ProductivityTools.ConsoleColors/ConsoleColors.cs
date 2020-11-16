@@ -28,7 +28,7 @@ namespace ProductivityTools.ConsoleColor
             SetConsoleMode(handle, mode | 0x4);
         }
 
-        public static void WriteInColor(ColorString input, bool newLine=true)
+        public static void WriteInColor(ColorString input, bool newLine = true)
         {
             ChangeMode();
             foreach (var item in input)
@@ -39,6 +39,18 @@ namespace ProductivityTools.ConsoleColor
                 }
                 Console.Write(item.Value);
             }
+            if (newLine)
+            {
+                Console.WriteLine();
+            }
+        }
+
+        public static void WriteInColor(string text, int color, bool newLine = true)
+        {
+            ChangeMode();
+            Console.Write($"\x1b[38;5;{color}m");
+            Console.Write(text);
+
             if (newLine)
             {
                 Console.WriteLine();

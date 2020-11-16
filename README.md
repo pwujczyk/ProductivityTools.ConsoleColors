@@ -29,7 +29,15 @@ for (byte i = 0; i < 255; i++)
     text.Add(new ColorStringItem(" XXXX", i));
 }
 
-ConsoleColor.WriteInColor(text);
+ConsoleColors.WriteInColor(text);
 ```
 <!--og-image-->
 ![Console Colors Tester](Images/TesterConsoleColors.png)
+
+## OneLiner
+
+It is also possible to print just one line in color.
+
+```C#
+ConsoleColors.WriteInColor("LastLine", 164);
+```
